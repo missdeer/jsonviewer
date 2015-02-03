@@ -253,7 +253,7 @@ Ext.onReady(function () {
 			}},
 			'->',
 			{text: '回到首页', handler: function(){
-				window.location.href="http://www.choujone.com/";
+				window.location.href="http://minidump.info/";
 			}},
 			{text: '关于', handler: aboutWindow}
 		],
@@ -504,7 +504,7 @@ Ext.onReady(function () {
 				 Ext.MessageBox.show({
 			           title: '获取Json网络数据',
 			           msg: '请输入Json网络地址:<br/>'+
-			           	   '<span style="color:red;">例如：</span>http://www.choujone.com/test.json<br/>'+
+			           	   '<span style="color:red;">例如：</span>http://minidump.info/test.json<br/>'+
 			        	   '<span style="color:red;">注意：</span>此数据是Google云服务器采集，请不要输入您的本地或者局域网json地址，如果长时间没有动静，请刷新重试<br/>'+
 			        	   '<span style="color:red;">申明：</span>本站绝对不保留您的任何json数据，请放心使用',
 			           width:450,
